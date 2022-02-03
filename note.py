@@ -438,7 +438,7 @@ class MyMainWindow(QtWidgets.QMainWindow):
         """
             Using plyer library for birthday reminder
         """
-        notification.notify(message=message, title="FeelsBirthdayMan", timeout=5, app_icon=r"C:\Python_projects\notebook\notebook\icons\birthday2.ico")
+        notification.notify(message=message, title="FeelsBirthdayMan", timeout=5, app_icon=r"icons\birthday2.ico")
 
 
     def read_from_file(self, file):
